@@ -1,0 +1,131 @@
+(session "temp-freerouting.ses"
+  (base_design "temp-freerouting.dsn")
+  (placement
+    (resolution um 10)
+    (component "kiC:TXS0108E_THT_20pin"
+      (place U2 1148842 -987298 front 0)
+      (place U1 1154176 -694944 front 0)
+    )
+    (component "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical"
+      (place J4 819912 -605790 front 0)
+    )
+    (component "Package_DIP:DIP-28_W15.24mm"
+      (place U7 1406226 -658170 front 0)
+    )
+    (component "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+      (place J3 899922 -539750 front 90)
+    )
+    (component "Capacitor_SMD:C_1206_3216Metric"
+      (place C9 1559052 -566166 back 270)
+      (place C5 1380744 -557784 back 270)
+      (place C8 1589278 -566166 back 270)
+    )
+    (component "LED_SMD:LED_1206_3216Metric"
+      (place D2 984982 -1088390 back 180)
+      (place D1 984982 -1054726 back 180)
+    )
+    (component "Resistor_SMD:R_1206_3216Metric"
+      (place R12 930402 -1089406 back 180)
+      (place R11 930402 -1056306 back 180)
+    )
+    (component "Capacitor_SMD:C_1206_3216Metric::1"
+      (place C4 1000506 -621284 back 0)
+      (place C7 1542034 -627126 back 0)
+      (place C10 1300226 -861314 back 0)
+      (place C3 827514 -547370 back 0)
+    )
+    (component "Package_TO_SOT_THT:TO-220-3_Vertical"
+      (place U3 1501648 -564388 back 0)
+    )
+    (component "Capacitor_SMD:C_1206_3216Metric::2"
+      (place C6 1482426 -694690 back 180)
+    )
+    (component "Diode_SMD:D_2010_5025Metric"
+      (place D4 927608 -619506 back 180)
+    )
+    (component "Resistor_SMD:R_1206_3216Metric::1"
+      (place R6 939546 -579374 back 0)
+      (place R5 995680 -578612 back 0)
+    )
+    (component "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+      (place U5 1480454 -790194 back 0)
+      (place U4 1316736 -778256 back 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "10.0.1")
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_1200:700_um"
+        (shape
+          (circle F.Cu 12000 0 0)
+        )
+        (shape
+          (circle B.Cu 12000 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_900:500_um"
+        (shape
+          (circle F.Cu 9000 0 0)
+        )
+        (shape
+          (circle B.Cu 9000 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_1200:700_um"
+        (shape
+          (circle F.Cu 12000 0 0)
+        )
+        (shape
+          (circle B.Cu 12000 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_900:500_um"
+        (shape
+          (circle F.Cu 9000 0 0)
+        )
+        (shape
+          (circle B.Cu 9000 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_1200:700_um"
+        (shape
+          (circle F.Cu 12000 0 0)
+        )
+        (shape
+          (circle B.Cu 12000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+    )
+  )
+)
