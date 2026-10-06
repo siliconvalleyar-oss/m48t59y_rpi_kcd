@@ -1671,7 +1671,7 @@
 		)
 		(uuid "0d71ba4f-24b4-41df-ba60-f029b5dab86d")
 	)
-	(hierarchical_label "MISO"
+	(hierarchical_label "GPIO9"
 		(shape input)
 		(at 196.85 107.95 0)
 		(effects
@@ -1858,7 +1858,7 @@
 		)
 		(uuid "9033cbd6-9d0f-40f7-804c-666f5132e794")
 	)
-	(hierarchical_label "SCLK"
+	(hierarchical_label "GPIO11"
 		(shape input)
 		(at 196.85 113.03 0)
 		(effects
@@ -1913,7 +1913,7 @@
 		)
 		(uuid "aef35f6a-5bb5-47e9-a1c1-68ebd1c511ff")
 	)
-	(hierarchical_label "MOSI"
+	(hierarchical_label "GPIO10"
 		(shape input)
 		(at 196.85 110.49 0)
 		(effects
@@ -2149,7 +2149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical"
+		(property "Footprint" "kicad:PinHeader_2x20_P2.54mm_Vertical"
 			(at 233.934 140.208 0)
 			(hide yes)
 			(show_name no)
