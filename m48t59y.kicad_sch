@@ -1382,6 +1382,12 @@
 		(uuid "68c61783-eea0-4a18-b54f-497582b11b8e")
 	)
 	(junction
+		(at 72.2782 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf05f064-f6de-425b-ae83-d73e6a75c35e")
+	)
+	(junction
 		(at 74.93 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1409,13 +1415,23 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 123.19) (xy 78.74 123.19)
+			(xy 60.96 123.19) (xy 72.2782 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "24e301f8-cd32-4441-959d-e5632ff6e96e")
+	)
+	(wire
+		(pts
+			(xy 72.2782 123.19) (xy 78.74 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "289df118-913d-4f63-8f25-d4f7b6bde396")
 	)
 	(wire
 		(pts
@@ -2453,6 +2469,83 @@
 			(project "m48t59y_pic18f"
 				(path "/d57bfde3-0b27-4d9e-897f-fd64e03ea824/804cc4ba-a52c-4af3-832b-64cd3a5da3c4"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 72.2782 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5076ea2a-b721-41ae-a612-47e7fe4621c3")
+		(property "Reference" "#PWR026"
+			(at 72.2782 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 69.2302 121.412 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.2782 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.2782 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 72.2782 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd32b586-6d2e-4976-a440-0c9783950c3c")
+		)
+		(instances
+			(project "m48t59y_pic18f"
+				(path "/d57bfde3-0b27-4d9e-897f-fd64e03ea824/804cc4ba-a52c-4af3-832b-64cd3a5da3c4"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
