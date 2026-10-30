@@ -259,6 +259,10 @@
           "drill": 0.75
         },
         {
+          "diameter": 1.5,
+          "drill": 1.0
+        },
+        {
           "diameter": 2.54,
           "drill": 1.0
         },
@@ -855,7 +859,7 @@
         "uuid": "d57bfde3-0b27-4d9e-897f-fd64e03ea824"
       }
     ],
-    "used_designators": "#PWR26",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
